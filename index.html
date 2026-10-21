@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+        <h2 id="first">Student Attendance calculator</h2>
+        <form id="Attendance-form">
+            <div class="form-group">
+            <label for="totalclasses">Total classes</label>
+            <input type="number" id="totalclasses" min="1" required>
+        </div>
+        <div class="form-group">
+            <label for="Attendance-classes">Attendance classes</label>
+            <input type="number" id="Attendance-classes" min="0" required>        
+        </div>
+        <button type="submit" class="btn">calculate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
